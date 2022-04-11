@@ -1,0 +1,77 @@
+* {
+    
+}
+
+.header, .main, .footer {
+    background-color: #1f2937;
+}
+
+.whitetext {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-info-titletext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.main-info-descriptiontext, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logotext {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.main-info button, .actionbox{
+    background-color: #3882f6;
+    border: 0px;
+}
+
+.bottom div button {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+}
+
+.middle-titletext {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-quotetext {
+    font-size: 36px;
+    font-family: Roboto;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.middle-infosection-substitutebox {
+    height: 150px;
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+    content: 0px;
+
+    border-width: 2px;
+    border-color: #3882f6;
+    border-style: solid;
+}
