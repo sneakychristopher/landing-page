@@ -1,5 +1,5 @@
 * {
-    
+    font-family: sans-serif;
 }
 
 .header, .main, .footer {
@@ -11,6 +11,8 @@
 }
 
 ul {
+    display: flex;
+    gap: 20px;
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -27,18 +29,29 @@ a {
 }
 
 .main-info-descriptiontext, a {
-    font-size: 18px;
+    font-size: 21px;
     color: #e5e7eb;
 }
 
 .header-logotext {
     font-size: 24px;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
 .main-info button, .actionbox{
     background-color: #3882f6;
+    
+}
+
+.main-info button {
     border: 0px;
+    padding: 9px 25px;
+    margin-top: 9px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
 }
 
 .bottom div button {
@@ -65,13 +78,141 @@ a {
 }
 
 .middle-infosection-substitutebox {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     margin: 0px;
     padding: 0px;
     content: 0px;
 
+    border-radius: 19px;
     border-width: 2px;
     border-color: #3882f6;
     border-style: solid;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 150px 25px 200px;;
+
+
+    /* TEMPORARY */
+    /* border: 1px solid red; */
+}
+
+.main {
+    display: flex;
+    gap: 80px;
+    padding: 100px 150px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 
+}
+
+.middle-infoarea {
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 200px;
+
+}
+
+.quote-quoteperson {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bolder;
+    padding-right: 40px;
+}
+
+.bottom {
+    display: flex;
+    padding: 55px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    color: #f9faf8;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    width: 480px;
+    height: 200px;
+    color: white;
+    background-color: rgb(163, 163, 163);
+
+}
+
+.middle-infosection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+    max-width: 200px;
+
+}
+
+.middle-infosection-descriptiontext {
+     text-align: center;
+     font-size: 21px;
+}
+
+.actionbox {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 35px 100px;
+}
+
+.actionbox-right button {
+    border-radius: 5px;
+    padding: 5px 28px;
+    font-size: 21px;
+}
+
+.actionbox-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.bottom-actionbox-titletext, .bottom-actionbox-descriptiontext {
+    font-size: 21px;
+}
+
+.bottom-actionbox-titletext {
+    font-weight: bold;
+}
+
+.bottom-actionbox-descriptiontext {
+
+}
+
